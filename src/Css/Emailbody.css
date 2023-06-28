@@ -1,0 +1,45 @@
+.emailbody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-bottom: 1px solid whitesmoke;
+  transition: 200ms ease;
+}
+.emailbody h4,
+p {
+  font-size: 14px;
+}
+.emailbody svg {
+  font-size: 18px;
+  color: gray;
+  cursor: pointer;
+}
+.emailbody:hover {
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.Emailbody_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+}
+.Emailbody_middle_message p b {
+  margin-right: 10px;
+}
+.Emailbody_middle_message p {
+  white-space: nowrap;
+}
+.Emailbody_middle {
+  min-width: 400px;
+  max-width: 700px;
+}
+.Emailbody_middle p {
+  width: inherit;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: capitalize;
+}

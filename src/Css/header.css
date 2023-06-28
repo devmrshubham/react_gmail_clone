@@ -1,0 +1,47 @@
+.header {
+  display: grid;
+  grid-template-columns: 12.5rem auto 12.5rem;
+  height: 3.125rem;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 3px solid whitesmoke;
+  font-size: 20px;
+}
+.header svg {
+  color: gray;
+  font-size: 25px;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.header_middle {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.search_mail {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  flex-basis: 70%;
+  background-color: whitesmoke;
+  align-items: center;
+  padding: 100x;
+}
+
+.search_mail input {
+  width: 85%;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.header_right {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}

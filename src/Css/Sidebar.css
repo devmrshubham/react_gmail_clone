@@ -1,0 +1,24 @@
+.btn_compose {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 110px;
+  height: 30px;
+  border-radius: 40px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.655);
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_compose:active{
+  background-color: whitesmoke;
+}
+.Sidebaroption_heading {
+  font-size: 15px;
+  margin-left: 25px;
+  font-weight: bold;
+}

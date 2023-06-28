@@ -1,0 +1,37 @@
+.Emailtype {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid whitesmoke;
+}
+.Email_option {
+  display: flex;
+  width: 150px;
+  align-items: center;
+  gap: 0.625rem;
+  justify-content: center;
+  transition: 500ms ease;
+}
+.Email_option:hover {
+  background-color: rgba(128, 128, 128, 0.147);
+  cursor: pointer;
+}
+.Emailtype_section {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.Emailtype_section svg {
+  font-size: 18px;
+  color: gray;
+}
+
+.email_option--active {
+  border-bottom: 2px solid red;
+  font-weight: bold;
+}
+
+.email_option--active svg,
+.email_option--active p {
+  color: red;
+}

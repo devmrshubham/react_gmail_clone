@@ -1,0 +1,89 @@
+.Compose {
+  position: absolute;
+  right: 70px;
+  bottom: 0px;
+  min-width: 500px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.774);
+}
+
+.Compose_bodyform {
+  display: flex;
+  flex-direction: column;
+}
+
+.Compose_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222f3e;
+  padding: 7px 15px;
+  color: white;
+}
+.Compose_header_right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Compose_header_right svg:hover {
+  cursor: pointer;
+}
+
+.Compose_header_right :nth-child(2) {
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+.Compose_bodyform input {
+  width: inherit;
+  border: none;
+  outline: none;
+  border: 1px solid whitesmoke;
+  padding: 10px 15px;
+}
+
+.Compose_bodyform textarea {
+  resize: none;
+  width: inherit;
+  outline: none;
+  border: 1px solid whitesmoke;
+  height: auto;
+  padding: 10px 15px;
+}
+.Compose_footer_left button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  background-color: #45aaf2;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.Compose_footer_left button svg {
+  border-left: 1px solid whitesmoke;
+  margin-left: 15px;
+}
+.Compose_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+}
+
+.Compose_footer_right svg:hover {
+  cursor: pointer;
+  color: black;
+  background-color: rgba(128, 128, 128, 0.169);
+}
+
+.Compose_footer_right svg {
+  font-size: 20px;
+  margin-left: 10px;
+  color: gray;
+  padding: 3px;
+  transition: 200ms linear;
+}

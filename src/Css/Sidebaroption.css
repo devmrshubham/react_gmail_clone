@@ -1,0 +1,48 @@
+.Sidebaroption {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0px 25px;
+  margin-right: 20px;
+  margin-top: 10px;
+  transition: 200ms ease;
+}
+
+.Sidebaroption:hover {
+  cursor: pointer;
+  background-color:rgba(128, 128, 128, 0.146);
+}
+
+.Sidebaroption svg {
+  color: rgb(94, 94, 94);
+}
+
+.Sidebaroption h2 {
+  font-size: 14px;
+  flex: 1;
+
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.Sidebaroption p {
+  color: rgb(94, 94, 94);
+  font-size: 12px;
+  opacity: 0;
+}
+
+.Sidebaroption--active {
+  background-color: rgba(255, 182, 193, 0.695);
+}.Sidebaroption--active:hover{
+  background-color:lightpink ;
+}
+
+.Sidebaroption--active h2,
+.Sidebaroption--active p,
+.Sidebaroption--active svg {
+  color: #e74c3c;
+  font-weight: bold;
+  opacity: 1;
+}
